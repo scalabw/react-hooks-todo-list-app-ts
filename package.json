@@ -1,15 +1,19 @@
 {
   "name": "react-hooks-todo-list-app-ts",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Simple Todo list app built with React hooks and TypeScript and tested with @testing-library/react.",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^9.3.2",
     "@types/jest": "24.0.23",
     "@types/node": "12.12.14",
     "@types/react": "16.9.13",
     "@types/react-dom": "16.9.4",
+    "antd": "^3.25.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
+    "shortid": "^2.2.15",
     "typescript": "3.7.2"
   },
   "scripts": {
@@ -32,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/shortid": "^0.0.29"
   }
 }

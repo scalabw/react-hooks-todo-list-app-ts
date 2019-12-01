@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a TODO List written in Typescript and is also tested with @testing-library/react
 
 ## Available Scripts
 
