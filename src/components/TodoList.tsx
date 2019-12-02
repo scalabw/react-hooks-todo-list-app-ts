@@ -9,7 +9,6 @@ import { ITodoList } from './../interfaces'
 const TodoList = (props: ITodoList) => {
   return (
     <div className="todo-list" >
-      {/* <p data-testid="todosvalue" hidden={true}>{[...props.todos]}</p> */}
       <ul>
         {props.todos.map((todo, index) => (
           <li key={todo.id}>

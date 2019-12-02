@@ -4,6 +4,7 @@ import * as React from 'react'
 import shortid from 'shortid'
 // Import interfaces
 import { ITodo, ITodoForm } from './../interfaces'
+
 // Todo form component
 const TodoForm = (props: ITodoForm) => {
   // Create ref for form input

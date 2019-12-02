@@ -9,12 +9,13 @@ import { ITodo } from './interfaces'
 // Import styles
 import './styles/styles.css'
 
+// TodoListApp component
 const TodoListApp: React.FC = () => {
 
   // Initialize the todos to the local saved data
   const initialState = () => JSON.parse(localStorage.getItem("todos")!) || []
 
-  // Hooks
+  // Hook
   const [todos, setTodos] = useState<ITodo[]>(initialState)
 
   // Save the data when updated and only when the todos value changed

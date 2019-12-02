@@ -2,6 +2,7 @@
 import * as React from 'react'
 // Import interfaces
 import { ITodoItem } from './../interfaces'
+
 // TodoItem component
 const TodoItem = (props: ITodoItem) => {
   return (
